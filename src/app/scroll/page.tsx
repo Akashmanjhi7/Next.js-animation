@@ -1,4 +1,6 @@
-import React from 'react'
+'use client'
+
+
 import ScrollTrigger from '../../components/scrollTrigger/ScrollTrigger'
 const scrollPage = () => {
   return (

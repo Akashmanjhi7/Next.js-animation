@@ -1,3 +1,5 @@
+'use client'
+
 import Oggy from "../../components/oggy/Oggy"
 
 const oggyPage = () => {
