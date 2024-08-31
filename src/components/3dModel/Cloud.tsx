@@ -7,7 +7,7 @@ import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export function Cloud({opacity,...props}:any) {
-  const { nodes, materials } = useGLTF('models/cloude/model.glb')
+  const { nodes, materials } = useGLTF('models/cloude/model.glb') as any
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes.Node.geometry} material={materials['lambert2SG.001']} >
