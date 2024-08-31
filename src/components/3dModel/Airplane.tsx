@@ -2,12 +2,12 @@
 import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 import { useFrame } from '@react-three/fiber'
-
+import * as THREE from 'three'
 const HELIX_SPEED = 8
 
 export function Airplane(props: any) {
   const helix = useRef<THREE.Mesh>(null) // Correctly typed ref
-  const { nodes, materials } = useGLTF('/models/airplane/model.glb')
+  const { nodes, materials } = useGLTF('/models/airplane/model.glb')  as any
 
   useFrame((_state, delta) => {
     if (helix.current) {
