@@ -34,18 +34,18 @@ const randomY = gsap.utils.random(-200,200,100)
     const movejack = contextSafe((e:any)=>{
     
       gsap.to(ref.current,{
-        x:e.clientX -800,
-        y:e.clientY -300,
+        x:e.clientX -1000,
+        y:e.clientY -500,
       })
       })
 
   return ( <div>
     <main className='cursor-pointer flex justify-center items-center h-screen ' onMouseMove={(e)=>movejack(e)}>    
-    <img  src="/jack.png" alt=''  ref={ref} className=' absolute h-40 '/> 
+    <img  src="/images/jack.png" alt=''  ref={ref} className=' absolute h-40 '/> 
 
     <img onClick={()=>{
       setxMove(randomX) ,setyMove(randomY)
-    }}  src="/cockroch.png" ref={cock} alt='' className='h-20'  />
+    }}  src="/images/cockroch.png" ref={cock} alt='' className='h-20'  />
     
     
 
