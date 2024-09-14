@@ -1,7 +1,6 @@
 'use Client'
 import { useTexture } from '@react-three/drei'
 import { useFrame } from '@react-three/fiber'
-import { group } from 'console'
 import { useRef } from 'react'
 import * as THREE from 'three'
 
