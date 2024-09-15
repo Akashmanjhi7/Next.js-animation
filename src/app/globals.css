@@ -8,8 +8,7 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
-font-family: "Questrial", sans-serif;
-font-size: 1.2rem;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
  
@@ -35,6 +34,11 @@ width: 100%;
 .linkContainer{
   perspective: 160px;
   perspective-origin: bottom;
+}
+
+.lenis{
+  font-family: "Questrial", sans-serif;
+  font-size: 1.2rem;
 }
 
  .header{

@@ -66,7 +66,7 @@ const page = () => {
   })
 
   return (
-    <div className='w-full'>
+    <div className='lenis w-full'>
 
 <div className="w-full bg-zinc-900 relative">
 <div className="grid grid-cols-8 grid-rows-20 gap-2 overflow-hidden">
