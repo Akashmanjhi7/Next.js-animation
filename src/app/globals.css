@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,7 +8,9 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
-font-family: 'gilroy';
+font-family: "Questrial", sans-serif;
+font-size: 1.2rem;
+
 }
  
 html,body{
@@ -32,3 +36,14 @@ width: 100%;
   perspective: 160px;
   perspective-origin: bottom;
 }
+
+ .header{
+        font-family: 'Road Rage';
+    }
+    .grid>div {
+        grid-row: var(--r);
+        grid-column: var(--c);
+    }
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
