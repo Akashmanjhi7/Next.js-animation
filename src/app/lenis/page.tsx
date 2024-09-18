@@ -5,6 +5,7 @@ import 'lenis/dist/lenis.css'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/all'
+import StickyCard from '../../components/sickycards/StickyCard'
 
 const page = () => {
  
@@ -109,7 +110,9 @@ const page = () => {
 </div>
 
 
+<StickyCard/>
 
+<div className='h-screen w-full bg-yellow-300'></div>
     </div>
   )
 }
