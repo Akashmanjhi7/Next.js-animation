@@ -18,13 +18,13 @@ const CreativeButton = () => {
 
     {/* Button 2 */}
     <button className="relative inline-flex items-center justify-center p-4 px-5 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out border-2 border-indigo-600 rounded-full shadow-md group">
-      <span className="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 bg-indigo-600 group-hover:translate-x-full ease">
+      <span className="absolute rounded-full inset-0 flex items-center justify-center w-full h-full text-white duration-300 bg-indigo-600 group-hover:translate-x-full ease">
         Button 2
       </span>
-      <span className="absolute flex items-center justify-center w-full h-full text-indigo-600 transition-all duration-300 transform translate-x-full group-hover:translate-x-0 ease">
+      <span className="absolute flex items-center justify-center rounded-full w-full h-full text-indigo-600 transition-all duration-300 transform translate-x-full group-hover:translate-x-0 ease">
         Button 2
       </span>
-      <span className="relative invisible">Button 2</span>
+      <span className="relative invisible ">Button 2</span>
     </button>
 
     {/* Button 3 */}

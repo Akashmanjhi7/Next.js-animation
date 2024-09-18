@@ -39,7 +39,7 @@ const StickyCard = () => {
 
 
       {images.map((images,index)=>(
-              <div className='card bg-[#2e251e] sticky top-[13vh] flex flex-col gap-4 items-center rounded-md py-[15vh] w-[24vw] '>
+              <div className='card bg-[#2e251e] sticky top-[13vh] flex flex-col gap-4 items-center rounded-md py-[15vh] w-[90vw] '>
               <img src={images} alt=""  className='h-32 aspect-square ' />
 
               <h1 className='text-5xl font-thin mt-6  '>
